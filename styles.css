@@ -11,7 +11,7 @@ DARK BLUE: #1D3557
 body {
     font-family: 'Chela One', cursive;
     Font:bold;
-    margin: 0;
+    margin: 0 auto;
     text-align: left;
     width:755px;
     background:purple;
