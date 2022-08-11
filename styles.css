@@ -1,0 +1,114 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    font-family: 'Chela One', cursive;
+    Font:bold;
+    margin: 0;
+    text-align: left;
+    width:755px;
+    background:purple;
+
+    
+}
+#hero{background-image:url("https://media.timeout.com/images/105483066/750/422/image.jpg");
+        position:relative;
+        margin:0 auto; 
+        padding:212px; 
+        border:3px solid purple; 
+        border-radius:10px; 
+        color:#ffff;
+        text-shadow:0 0 5px black;
+        text-align:justify;
+        display:flex;
+        flex-direction:column;
+        align-items:start;
+        justify-content: end;
+        text-align: left;
+        
+}
+
+.title{position:absolute;
+top:280px;margin:0;
+left:15px; color:#ffff;
+}
+
+.subtitle{position:absolute;margin:0;
+top:325px; width:280px;
+left:15px
+}
+
+
+
+
+.Activites {display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items:flex-start;
+width:650px;
+background:#F9E00A;
+margin-top:5px;
+padding:50px;
+border:3px solid purple;
+border-radius:10px;
+
+}
+#downtown-img{display:flex;
+margin-right:10px; width:350px; height:150px;border:3px solid purple;
+border-radius:10px;
+
+}
+#sign-img{display:flex;
+
+margin-right:10px;
+width: 350px; height:150px;border:3px solid purple;
+border-radius:10px;
+
+}
+
+#eiffel-img{display: flex;
+width:350px;height:150px;
+margin:0;border:3px solid purple;
+border-radius:10px;
+}
+
+.guide{border: 3px solid #F9E00A;
+position: relative;
+background: #F9E00A;
+width:450px;height:250px;
+width:290px;
+height:200px;
+margin:0 auto;
+font-size: 19px;
+padding:25px 50px;
+border:3px solid purple;
+border-radius:10px;margin-top:5px;
+    
+}
+
+.guide-title{position:absolute;
+top:25px; left:35px; color:#ffff; text-shadow:0 0 5px black;
+    
+}
+.guide-quote{position:absolute;top:73px;
+left:35px; width:150px;color:#ffff; text-shadow:0 0 5px black;
+    
+}
+.guide-name{position:absolute; bottom:5px;
+left:35px; font-size:20px;color:#ffff; text-shadow:0 0 5px black;
+    
+}
+
+#Adam-img{width:150px;position:absolute;
+top:30px; right:20px;
+border:3px solid purple;
+border-radius:10px;
+}
+
